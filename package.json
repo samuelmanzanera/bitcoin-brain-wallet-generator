@@ -1,0 +1,18 @@
+{
+  "name": "bitcoin-brain-wallet-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bigi": "^1.4.2",
+    "bip39": "^2.5.0",
+    "bitcoinjs-lib": "^3.3.2",
+    "wif": "^2.0.6"
+  }
+}
