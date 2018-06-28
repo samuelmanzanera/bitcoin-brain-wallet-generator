@@ -15,7 +15,7 @@ node index --keys=10 --mode=seed
 Otherwise, I packaged it as .exe for windows using nexe.
 So it's possible to use directly on the bash
 ```sh
-bitcoin-brain-wallet-generator.exe --keys=10
+bitcoin-brain-wallet-generator.exe --keys=10 --mode=seed
 ```
 
 ## Options
