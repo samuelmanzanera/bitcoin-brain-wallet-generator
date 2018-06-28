@@ -43,8 +43,9 @@ for (let i = 0; i < argv.keys; i++) {
         }).join(' ')
     }
     else if (argv.mode === "password") {
+
         phrase = generatePassword.generate({
-            length: 10,
+            length: Math.floor((Math.random() * 20) + 1),
             uppercase: true,
             numbers: true,
             symbol: true
