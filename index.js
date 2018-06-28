@@ -7,13 +7,12 @@ const generatePassword = require('generate-password')
 const argv = require('yargs').argv
 const Json2csvParser = require('json2csv').Parser;
 
-
-if (process.argv.length < 3 || process.argv[2].indexOf('--keys=') === -1) {
+if (!argv.keys) {
     throw 'Missing the --keys parameter. i.e --keys=20'
 }
 
-if (!argv.keys) {
-    throw 'Missing the --keys parameter. i.e --keys=20'
+if (!argv.mode) {
+    throw 'Missing the --mode parameter. i.e --mode=seed'
 }
 
 
