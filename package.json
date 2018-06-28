@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-brain-wallet-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,9 @@
     "bigi": "^1.4.2",
     "bip39": "^2.5.0",
     "bitcoinjs-lib": "^3.3.2",
-    "wif": "^2.0.6"
+    "generate-password": "^1.4.0",
+    "json2csv": "^4.1.5",
+    "wif": "^2.0.6",
+    "yargs": "^11.0.0"
   }
 }
